@@ -520,10 +520,6 @@ p {
     transform: translateY(-3px);
 }
 
-.content-left {
-    padding: 2rem;
-}
-
 .intro-text {
     font-size: 1.4rem;
     color: var(--accent-green);
