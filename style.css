@@ -88,12 +88,12 @@ header {
 }
 
 .content-left img {
-    width: 170%;
+    width: 100%;
     border-radius: 10px;
 }
 
 .content-right img{
-    width: 170%;
+    width: 100%;
     border-radius: 10px;
 }
 
