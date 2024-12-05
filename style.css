@@ -1074,3 +1074,27 @@ html {
         height: 50%;
     }
 }
+
+/* Styles pour mobile */
+@media (max-width: 768px) {
+  .split-section {
+    flex-direction: column; /* Aligne le contenu en colonne */
+    text-align: center; /* Centre le texte */
+  }
+
+  .content-left, .content-right {
+    width: 100%; /* Prend toute la largeur */
+    margin-bottom: 20px; /* Ajoute un espace entre les sections */
+  }
+
+  .content-right {
+    margin-top: 10px; /* Ajoute un espace au-dessus de l'image */
+  }
+
+  .cta-button {
+    display: block; /* Affiche le bouton en bloc */
+    margin: 10px auto 0; /* Centre le bouton et ajoute un espace au-dessus */
+    padding: 10px 20px; /* Ajoute du padding */
+    font-size: 1.2em; /* Augmente la taille de la police */
+  }
+}
