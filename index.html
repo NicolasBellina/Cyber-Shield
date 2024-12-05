@@ -13,7 +13,9 @@
         }
 
         .split-section {
+          display: flex;
           flex-direction: column; /* Aligne le contenu en colonne */
+          align-items: center; /* Centre les éléments horizontalement */
           text-align: center; /* Centre le texte */
         }
 
@@ -22,8 +24,14 @@
           margin-bottom: 20px; /* Ajoute un espace entre les sections */
         }
 
+        .content-right {
+          display: flex;
+          justify-content: center; /* Centre l'image horizontalement */
+          margin-bottom: 20px; /* Ajoute un espace entre les sections */
+        }
+
         .intro-text, .detail-text {
-          width: 100%; /* Augmente la largeur du texte à 100% */
+          width: 90%; /* Augmente la largeur du texte à 90% */
           margin: 0 auto; /* Centre le texte */
           font-size: 1.1em; /* Ajuste la taille de la police si nécessaire */
           line-height: 1.5; /* Améliore la lisibilité */

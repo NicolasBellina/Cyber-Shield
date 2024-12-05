@@ -87,13 +87,13 @@ header {
     color: var(--accent-green); /* Couleur uniforme au survol */
 }
 
-.content-left img, .content-right img {
-    width: 100%;
+.content-left img {
+    width: 170%;
     border-radius: 10px;
 }
 
 .content-right img{
-    width: 100%;
+    width: 170%;
     border-radius: 10px;
 }
 
@@ -1093,9 +1093,7 @@ html {
     line-height: 1.5; /* Améliore la lisibilité */
   }
 
-  .content-right {
-    margin-top: 10px; /* Ajoute un espace au-dessus de l'image */
-  }
+  
 
   .cta-button {
     display: block; /* Affiche le bouton en bloc */
