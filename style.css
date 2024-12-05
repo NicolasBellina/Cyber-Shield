@@ -1051,7 +1051,6 @@ html {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 1rem;
         gap: 1rem;
     }
 
@@ -1085,6 +1084,13 @@ html {
   .content-left, .content-right {
     width: 100%; /* Prend toute la largeur */
     margin-bottom: 20px; /* Ajoute un espace entre les sections */
+  }
+
+  .intro-text, .detail-text {
+    width: 100%; /* Augmente la largeur du texte à 100% */
+    margin: 0 auto; /* Centre le texte */
+    font-size: 1.1em; /* Ajuste la taille de la police si nécessaire */
+    line-height: 1.5; /* Améliore la lisibilité */
   }
 
   .content-right {
