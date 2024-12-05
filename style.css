@@ -1104,3 +1104,19 @@ html {
     font-size: 1.2em; /* Augmente la taille de la police */
   }
 }
+
+/* Ajoutez cette règle dans votre fichier style.css */
+@media (max-width: 768px) {
+    .split-section {
+        flex-direction: row; /* Aligne le contenu en ligne */
+        justify-content: space-between; /* Espace entre les images */
+    }
+
+    .content-left, .content-right {
+        width: 48%; /* Ajuste la largeur pour permettre un espacement */
+    }
+
+    .content-center {
+        display: block; /* Affiche la flèche pour la page de solution */
+    }
+}

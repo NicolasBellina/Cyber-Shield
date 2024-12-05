@@ -5,6 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Cyber Shield</title>
+    <style>
+      /* Responsive pour les appareils mobiles */
+      @media (max-width: 768px) {
+        header {
+          padding: 1rem; /* Réduit le padding de l'en-tête */
+        }
+
+        .split-section {
+          flex-direction: column; /* Aligne le contenu en colonne */
+          text-align: center; /* Centre le texte */
+        }
+
+        .content-left, .content-right {
+          width: 100%; /* Prend toute la largeur */
+          margin-bottom: 20px; /* Ajoute un espace entre les sections */
+        }
+
+        .intro-text, .detail-text {
+          width: 100%; /* Augmente la largeur du texte à 100% */
+          margin: 0 auto; /* Centre le texte */
+          font-size: 1.1em; /* Ajuste la taille de la police si nécessaire */
+          line-height: 1.5; /* Améliore la lisibilité */
+        }
+
+        .final-banner {
+          padding: 4rem 1rem; /* Ajuste le padding pour la bannière finale */
+        }
+
+        .cta-button {
+          display: block; /* Affiche le bouton en bloc */
+          margin: 10px auto 0; /* Centre le bouton et ajoute un espace au-dessus */
+          padding: 10px 20px; /* Ajoute du padding */
+          font-size: 1.2em; /* Augmente la taille de la police */
+        }
+
+        .feature-column {
+          flex: 1; /* Permet aux colonnes de s'étendre */
+          margin-bottom: 2rem; /* Ajoute un espace entre les colonnes */
+        }
+
+        .cards-grid {
+          grid-template-columns: 1fr; /* Affiche une seule colonne pour les cartes */
+        }
+
+        .cards-showcase h2 {
+          font-size: 1.5rem; /* Ajuste la taille du titre */
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
